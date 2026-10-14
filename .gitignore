@@ -1,0 +1,25 @@
+# Secrets / local config
+.env
+.env.*
+!.env.example
+
+# Google credentials / cached OAuth token
+google_token.json
+*service_account*.json
+client_secret*.json
+
+# Personal run log (contains real record Ids and org details)
+handbook.md
+
+# Claude Code local permissions (machine-specific paths)
+.claude/settings.json
+.claude/settings.local.json
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# OS
+.DS_Store
